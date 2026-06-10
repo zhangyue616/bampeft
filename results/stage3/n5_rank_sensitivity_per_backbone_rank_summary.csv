@@ -1,0 +1,13 @@
+backbone,method,rank,protocol,n_total,n_pass,status,metric_mean_mixed,metric_sem_mixed,paired_vs_r8_n,paired_bad_diff_vs_r8_mean,paired_bad_diff_vs_r8_sem,direction
+cmpnn,lora,4,scaffold,18,18,PASS,1.0108004444444445,0.13753906533093072,18,0.006701388888888906,0.009220601415223639,positive paired_bad_diff_vs_r8 = rank variant worse than r=8 baseline
+cmpnn,lora,16,scaffold,18,18,PASS,0.9993998888888888,0.13208927947936716,18,-0.0018161666666666372,0.005895453073582251,positive paired_bad_diff_vs_r8 = rank variant worse than r=8 baseline
+cmpnn,dora,4,scaffold,18,18,PASS,1.0071779444444446,0.13594873404854413,18,0.0038587777777777665,0.0066946762365425695,positive paired_bad_diff_vs_r8 = rank variant worse than r=8 baseline
+cmpnn,dora,16,scaffold,18,18,PASS,1.007116,0.1360801631972044,18,0.004159055555555581,0.011851166964263533,positive paired_bad_diff_vs_r8 = rank variant worse than r=8 baseline
+chemberta2,lora,4,scaffold,18,18,PASS,1.0418877024214395,0.13353073279445374,18,-0.011900375578818274,0.01719652514554497,positive paired_bad_diff_vs_r8 = rank variant worse than r=8 baseline
+chemberta2,lora,16,scaffold,18,18,PASS,1.0458773986826235,0.13811075612443915,18,-0.015050625072700254,0.03383198706358449,positive paired_bad_diff_vs_r8 = rank variant worse than r=8 baseline
+chemberta2,dora,4,scaffold,18,18,PASS,1.0400714592582803,0.1330164766409702,18,-0.017369005311912794,0.016762432119845252,positive paired_bad_diff_vs_r8 = rank variant worse than r=8 baseline
+chemberta2,dora,16,scaffold,18,18,PASS,1.0476788534723835,0.13947782418411842,18,-0.017606053432330827,0.03307987306805397,positive paired_bad_diff_vs_r8 = rank variant worse than r=8 baseline
+molformer_c3,lora,4,scaffold,18,18,PASS,1.0272719087101494,0.13887974324677546,18,-0.0065518637097808545,0.022237278399757712,positive paired_bad_diff_vs_r8 = rank variant worse than r=8 baseline
+molformer_c3,lora,16,scaffold,18,18,PASS,1.0179548691726756,0.13362334122080252,18,-0.015788389015123347,0.02475900036481843,positive paired_bad_diff_vs_r8 = rank variant worse than r=8 baseline
+molformer_c3,dora,4,scaffold,18,18,PASS,1.0213642229396056,0.13675662486877882,18,-0.02057397403495011,0.02259327741380327,positive paired_bad_diff_vs_r8 = rank variant worse than r=8 baseline
+molformer_c3,dora,16,scaffold,18,18,PASS,1.0231797174315593,0.13822522844985705,18,-0.020010215193473752,0.0137180540418921,positive paired_bad_diff_vs_r8 = rank variant worse than r=8 baseline

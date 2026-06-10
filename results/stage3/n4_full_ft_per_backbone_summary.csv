@@ -1,0 +1,7 @@
+backbone,protocol,n,mean,std,sem,metric_note
+cmpnn,random,36,0.7740551111111111,0.23192861857276909,0.03865476976212818,raw metric aggregate across regression RMSE and classification AUC; paired bad-space table is direction-aware
+cmpnn,scaffold,35,0.8978619428571426,0.34821096461661283,0.058858395657770256,raw metric aggregate across regression RMSE and classification AUC; paired bad-space table is direction-aware
+chemberta2,random,36,0.9054611714484364,0.32990519453879913,0.05498419908979985,raw metric aggregate across regression RMSE and classification AUC; paired bad-space table is direction-aware
+chemberta2,scaffold,36,1.1709253766555487,0.7884890816279324,0.13141484693798874,raw metric aggregate across regression RMSE and classification AUC; paired bad-space table is direction-aware
+molformer_c3,random,36,0.8061813547125362,0.21409332128992623,0.0356822202149877,raw metric aggregate across regression RMSE and classification AUC; paired bad-space table is direction-aware
+molformer_c3,scaffold,36,0.9805900363804805,0.4751997095751742,0.07919995159586236,raw metric aggregate across regression RMSE and classification AUC; paired bad-space table is direction-aware

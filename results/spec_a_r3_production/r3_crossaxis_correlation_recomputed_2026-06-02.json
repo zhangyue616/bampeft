@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "bootstrap_B": 10000,
+    "bootstrap_method": "row-resampled percentile bootstrap 95% CI of Spearman rho",
+    "bootstrap_rng": "numpy.random.default_rng(42)",
+    "bootstrap_seed": 42,
+    "input_paths": {
+      "r3_archive": "docs/spec_a_r3_prep/bam_peft_r3_blinded_amenability_archive_2026-05-25.csv",
+      "r3_production": "docs/spec_a_r3_production/r3_production_v1_20260528_030441_aggregated.csv"
+    },
+    "input_sha256": {
+      "r3_archive": "dca46d45c573716da9b353ce32101533f8c9b2445e153f0c2ee6a4cdbb28f753",
+      "r3_production": "4b7432cc953ad75e50ebd2a5194e1f2174543853513c0c594c00ce2461a9919b"
+    },
+    "output_sha256": {
+      "csv": "203071e3db69cf924213b551c29c5b6cc38f0ab72f5572dd39211fd2cb7bc367",
+      "csv_body": "a5465d076f3cd1eeeb575cf08e1385a7f4147bf1646d85a503f58cc84f80c5fc",
+      "json_final_sha256": "reported by the generating script after write; not embedded to avoid self-reference"
+    },
+    "permutation_method": "two-sided shuffle-y test; p = count(|rho_perm| >= |rho_obs|) / n_perms",
+    "permutation_n": 10000,
+    "permutation_rng": "numpy.random.default_rng(42)",
+    "permutation_seed": 42,
+    "resampling_unit": "analyzable paired held-out cell",
+    "row_order": "sorted(backbone,dataset,seed)",
+    "statistic": "Spearman rho (scipy.stats.spearmanr)"
+  },
+  "rows": [
+    {
+      "asymptotic_p": 0.39080986628437947,
+      "bootstrap_nan_count": 0,
+      "ci_high": 0.531996615879234,
+      "ci_low": -0.26258390152180777,
+      "group": "Overall",
+      "n": 33,
+      "permutation_extreme_count": 3909,
+      "permutation_p": 0.3909,
+      "rho": 0.15444041951071727
+    },
+    {
+      "asymptotic_p": 0.6112415414857585,
+      "bootstrap_nan_count": 0,
+      "ci_high": 0.5896300039314067,
+      "ci_low": -0.39281455705265944,
+      "group": "GraphMVP-GIN",
+      "n": 18,
+      "permutation_extreme_count": 6165,
+      "permutation_p": 0.6165,
+      "rho": 0.12853675115645868
+    },
+    {
+      "asymptotic_p": 0.3719345149124239,
+      "bootstrap_nan_count": 0,
+      "ci_high": 0.6914121855320206,
+      "ci_low": -0.31250829297772365,
+      "group": "Uni-Mol2-84M",
+      "n": 15,
+      "permutation_extreme_count": 3697,
+      "permutation_p": 0.3697,
+      "rho": 0.24844292795410336
+    },
+    {
+      "asymptotic_p": 0.6042455026014857,
+      "bootstrap_nan_count": 0,
+      "ci_high": 0.363574448754999,
+      "ci_low": -0.5852631323155166,
+      "group": "Classification",
+      "n": 16,
+      "permutation_extreme_count": 5965,
+      "permutation_p": 0.5965,
+      "rho": -0.14031413699623504
+    },
+    {
+      "asymptotic_p": 0.28652260324153705,
+      "bootstrap_nan_count": 0,
+      "ci_high": 0.722998848711383,
+      "ci_low": -0.2868358655003182,
+      "group": "Regression",
+      "n": 17,
+      "permutation_extreme_count": 2883,
+      "permutation_p": 0.2883,
+      "rho": 0.27438706230081494
+    }
+  ]
+}

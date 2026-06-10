@@ -1,0 +1,112 @@
+run_id,cell_index,backbone,dataset,method,seed,outcome,metric_name,metric_value,bad_diff,final_epoch,best_epoch,batch_size,lr,weight_decay,epochs_budget,patience,train_curve_path,checkpoint_path,duration_sec,error_class,error_message
+r3_production_v1_20260528_030441,1,graphmvp_gin,sider,LoRA,0,PASS,auc,0.6080272842,-0.0033449913,50,44,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_001_graphmvp_gin_sider_LoRA_seed0.pt,67.5,,
+r3_production_v1_20260528_030441,2,graphmvp_gin,sider,LoRA,1,PASS,auc,0.6504827749,0.0295132526,41,11,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_002_graphmvp_gin_sider_LoRA_seed1.pt,67.3,,
+r3_production_v1_20260528_030441,3,graphmvp_gin,sider,LoRA,2,PASS,auc,0.617592301,0.0072114749,50,21,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_003_graphmvp_gin_sider_LoRA_seed2.pt,67.3,,
+r3_production_v1_20260528_030441,4,graphmvp_gin,sider,DoRA,0,PASS,auc,0.6113722755,-0.0033449913,50,44,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_004_graphmvp_gin_sider_DoRA_seed0.pt,67.6,,
+r3_production_v1_20260528_030441,5,graphmvp_gin,sider,DoRA,1,PASS,auc,0.6209695223,0.0295132526,50,29,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_005_graphmvp_gin_sider_DoRA_seed1.pt,63.7,,
+r3_production_v1_20260528_030441,6,graphmvp_gin,sider,DoRA,2,PASS,auc,0.6103808261,0.0072114749,50,26,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_006_graphmvp_gin_sider_DoRA_seed2.pt,67.8,,
+r3_production_v1_20260528_030441,7,unimol2_84m,sider,LoRA,0,INCOMPLETE,,,,,,8,0.0003,0.0,50,30,,,1003.3,PROCESS_FAIL,"5/1141 [00:31<05:01,  2.34it/s]
+ 38%|███▊      | 437/1141 [00:31<04:11,  2.80it/s]
+ 38%|███▊      | 439/1141 [00:51<28:44,  2.46s/it]
+ 39%|███▊      | 441/1141 [00:53<24:40,  2.11s/it]
+ 39%|███▉      | 444/1141 [00:53<16:23,  1.41s/it]
+ 39%|███▉      | 448/1141 [00:53<09:59,  1.16it/s]
+ 40%|███▉      | 455/1141 [00:53<05:04,  2.25it/s]
+ 40%|████      | 459/1141 [00:53<03:45,  3.03it/s]
+ 40%|████      | 462/1141 [00:53<02:58,  3.81it/s]
+ 41%|████      | 465/1141 [00:54<02:44,  4.11it/s]
+ 41%|████"
+r3_production_v1_20260528_030441,8,unimol2_84m,sider,LoRA,1,PASS,AUROC,0.6386237866,-0.0018693475,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,3279.9,,
+r3_production_v1_20260528_030441,9,unimol2_84m,sider,LoRA,2,INCOMPLETE,,,,,,8,0.0003,0.0,50,30,,,1324.9,PROCESS_FAIL,", 12.88it/s]
+ 91%|█████████ | 1036/1141 [06:24<00:07, 14.32it/s]
+ 91%|█████████ | 1039/1141 [06:24<00:06, 16.45it/s]
+ 91%|█████████▏| 1042/1141 [06:24<00:05, 17.74it/s]
+ 92%|█████████▏| 1045/1141 [06:24<00:04, 19.87it/s]
+ 92%|█████████▏| 1048/1141 [06:24<00:04, 19.14it/s]
+ 92%|█████████▏| 1051/1141 [06:25<00:04, 19.70it/s]
+ 93%|█████████▎| 1056/1141 [06:25<00:03, 25.36it/s]
+ 93%|█████████▎| 1060/1141 [06:25<00:02, 28.39it/s]
+ 93%|█████████▎| 1064/1141 [06:34<00:56,  1.37it/s]
+ 94%|█████████▎| 10"
+r3_production_v1_20260528_030441,10,graphmvp_gin,bace,LoRA,0,PASS,auc,0.8287971905,0.0019315189,50,43,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_010_graphmvp_gin_bace_LoRA_seed0.pt,60.2,,
+r3_production_v1_20260528_030441,11,graphmvp_gin,bace,LoRA,1,PASS,auc,0.8952961672,0.0675958188,46,16,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_011_graphmvp_gin_bace_LoRA_seed1.pt,60.1,,
+r3_production_v1_20260528_030441,12,graphmvp_gin,bace,LoRA,2,PASS,auc,0.8209803922,-0.0039215686,39,9,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_012_graphmvp_gin_bace_LoRA_seed2.pt,60.1,,
+r3_production_v1_20260528_030441,13,graphmvp_gin,bace,DoRA,0,PASS,auc,0.8268656716,0.0019315189,50,43,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_013_graphmvp_gin_bace_DoRA_seed0.pt,60.4,,
+r3_production_v1_20260528_030441,14,graphmvp_gin,bace,DoRA,1,PASS,auc,0.8277003484,0.0675958188,50,39,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_014_graphmvp_gin_bace_DoRA_seed1.pt,60.2,,
+r3_production_v1_20260528_030441,15,graphmvp_gin,bace,DoRA,2,PASS,auc,0.8249019608,-0.0039215686,39,9,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_015_graphmvp_gin_bace_DoRA_seed2.pt,60.2,,
+r3_production_v1_20260528_030441,16,unimol2_84m,bace,LoRA,0,PASS,AUROC,0.843256059,-0.0043905866,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,845.0,,
+r3_production_v1_20260528_030441,17,unimol2_84m,bace,LoRA,1,PASS,AUROC,0.8920673921,0.0078975079,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,903.1,,
+r3_production_v1_20260528_030441,18,unimol2_84m,bace,LoRA,2,PASS,AUROC,0.7963320463,-0.0257985258,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,845.1,,
+r3_production_v1_20260528_030441,19,graphmvp_gin,bbbp,LoRA,0,PASS,auc,0.8937653815,-0.0010937927,50,25,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_019_graphmvp_gin_bbbp_LoRA_seed0.pt,61.5,,
+r3_production_v1_20260528_030441,20,graphmvp_gin,bbbp,LoRA,1,PASS,auc,0.8941818182,0.0008484849,38,8,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_020_graphmvp_gin_bbbp_LoRA_seed1.pt,60.2,,
+r3_production_v1_20260528_030441,21,graphmvp_gin,bbbp,LoRA,2,PASS,auc,0.9418250059,0.0035186489,50,38,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_021_graphmvp_gin_bbbp_LoRA_seed2.pt,61.7,,
+r3_production_v1_20260528_030441,22,graphmvp_gin,bbbp,DoRA,0,PASS,auc,0.8948591742,-0.0010937927,50,25,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_022_graphmvp_gin_bbbp_DoRA_seed0.pt,60.1,,
+r3_production_v1_20260528_030441,23,graphmvp_gin,bbbp,DoRA,1,PASS,auc,0.8933333333,0.0008484849,38,8,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_023_graphmvp_gin_bbbp_DoRA_seed1.pt,60.2,,
+r3_production_v1_20260528_030441,24,graphmvp_gin,bbbp,DoRA,2,PASS,auc,0.938306357,0.0035186489,50,38,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_024_graphmvp_gin_bbbp_DoRA_seed2.pt,60.2,,
+r3_production_v1_20260528_030441,25,unimol2_84m,bbbp,LoRA,0,PASS,AUROC,0.8818886735,0.0414705068,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,1022.4,,
+r3_production_v1_20260528_030441,26,unimol2_84m,bbbp,LoRA,1,PASS,AUROC,0.8755813953,-0.0280523256,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,1022.1,,
+r3_production_v1_20260528_030441,27,unimol2_84m,bbbp,LoRA,2,PASS,AUROC,0.899822695,0.0054555373,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,1022.3,,
+r3_production_v1_20260528_030441,28,graphmvp_gin,freesolv,LoRA,0,PASS,rmse,2.166429445,0.002388366,46,16,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_028_graphmvp_gin_freesolv_LoRA_seed0.pt,60.2,,
+r3_production_v1_20260528_030441,29,graphmvp_gin,freesolv,LoRA,1,PASS,rmse,1.728797596,0.003555611,43,13,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_029_graphmvp_gin_freesolv_LoRA_seed1.pt,60.1,,
+r3_production_v1_20260528_030441,30,graphmvp_gin,freesolv,LoRA,2,PASS,rmse,3.214518341,-0.038284413,50,43,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_030_graphmvp_gin_freesolv_LoRA_seed2.pt,60.4,,
+r3_production_v1_20260528_030441,31,graphmvp_gin,freesolv,DoRA,0,PASS,rmse,2.168817811,0.002388366,46,16,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_031_graphmvp_gin_freesolv_DoRA_seed0.pt,60.1,,
+r3_production_v1_20260528_030441,32,graphmvp_gin,freesolv,DoRA,1,PASS,rmse,1.732353207,0.003555611,43,13,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_032_graphmvp_gin_freesolv_DoRA_seed1.pt,60.1,,
+r3_production_v1_20260528_030441,33,graphmvp_gin,freesolv,DoRA,2,PASS,rmse,3.176233928,-0.038284413,50,43,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_033_graphmvp_gin_freesolv_DoRA_seed2.pt,60.1,,
+r3_production_v1_20260528_030441,34,unimol2_84m,freesolv,LoRA,0,PASS,RMSE,1.732774377,0.992854953,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,300.9,,
+r3_production_v1_20260528_030441,35,unimol2_84m,freesolv,LoRA,1,PASS,RMSE,1.807281971,0.556294441,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,302.4,,
+r3_production_v1_20260528_030441,36,unimol2_84m,freesolv,LoRA,2,PASS,RMSE,2.235645294,-0.004706383,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,300.6,,
+r3_production_v1_20260528_030441,37,graphmvp_gin,esol,LoRA,0,PASS,rmse,1.021767196,0.01192627,50,50,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_037_graphmvp_gin_esol_LoRA_seed0.pt,60.3,,
+r3_production_v1_20260528_030441,38,graphmvp_gin,esol,LoRA,1,PASS,rmse,1.178500659,0.036952463,50,45,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_038_graphmvp_gin_esol_LoRA_seed1.pt,60.1,,
+r3_production_v1_20260528_030441,39,graphmvp_gin,esol,LoRA,2,PASS,rmse,1.248637632,-0.007233882,50,25,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_039_graphmvp_gin_esol_LoRA_seed2.pt,60.1,,
+r3_production_v1_20260528_030441,40,graphmvp_gin,esol,DoRA,0,PASS,rmse,1.033693466,0.01192627,50,50,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_040_graphmvp_gin_esol_DoRA_seed0.pt,60.1,,
+r3_production_v1_20260528_030441,41,graphmvp_gin,esol,DoRA,1,PASS,rmse,1.215453122,0.036952463,50,45,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_041_graphmvp_gin_esol_DoRA_seed1.pt,60.2,,
+r3_production_v1_20260528_030441,42,graphmvp_gin,esol,DoRA,2,PASS,rmse,1.24140375,-0.007233882,50,25,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_042_graphmvp_gin_esol_DoRA_seed2.pt,60.1,,
+r3_production_v1_20260528_030441,43,unimol2_84m,esol,LoRA,0,PASS,RMSE,0.8274841309,0.0679441094,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,481.2,,
+r3_production_v1_20260528_030441,44,unimol2_84m,esol,LoRA,1,PASS,RMSE,0.9493494034,0.046721816,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,480.8,,
+r3_production_v1_20260528_030441,45,unimol2_84m,esol,LoRA,2,PASS,RMSE,0.9959924817,-0.0608947277,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,422.5,,
+r3_production_v1_20260528_030441,46,graphmvp_gin,lipo,LoRA,0,PASS,rmse,0.7209819864,0.0428092227,50,47,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_046_graphmvp_gin_lipo_LoRA_seed0.pt,122.7,,
+r3_production_v1_20260528_030441,47,graphmvp_gin,lipo,LoRA,1,PASS,rmse,0.7216676437,-0.0010587192,50,48,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_047_graphmvp_gin_lipo_LoRA_seed1.pt,122.2,,
+r3_production_v1_20260528_030441,48,graphmvp_gin,lipo,LoRA,2,PASS,rmse,0.8674960708,-0.0080284805,41,11,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_048_graphmvp_gin_lipo_LoRA_seed2.pt,121.8,,
+r3_production_v1_20260528_030441,49,graphmvp_gin,lipo,DoRA,0,PASS,rmse,0.7637912091,0.0428092227,50,38,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_049_graphmvp_gin_lipo_DoRA_seed0.pt,121.7,,
+r3_production_v1_20260528_030441,50,graphmvp_gin,lipo,DoRA,1,PASS,rmse,0.7206089245,-0.0010587192,50,48,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_050_graphmvp_gin_lipo_DoRA_seed1.pt,122.0,,
+r3_production_v1_20260528_030441,51,graphmvp_gin,lipo,DoRA,2,PASS,rmse,0.8594675903,-0.0080284805,41,11,50,0.001,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_graphmvp_train_curves.csv,results/spec_a_r3_production/checkpoints/r3_production_v1_20260528_030441_cell_051_graphmvp_gin_lipo_DoRA_seed2.pt,122.0,,
+r3_production_v1_20260528_030441,52,unimol2_84m,lipo,LoRA,0,PASS,RMSE,0.7402953506,-0.0484105349,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,1717.1,,
+r3_production_v1_20260528_030441,53,unimol2_84m,lipo,LoRA,1,PASS,RMSE,0.6073266864,0.1184856891,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,1709.5,,
+r3_production_v1_20260528_030441,54,unimol2_84m,lipo,LoRA,2,PASS,RMSE,0.6660837531,,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,1716.5,,
+r3_production_v1_20260528_030441,55,unimol2_84m,sider,DoRA,0,INCOMPLETE,,,,,,8,0.0003,0.0,50,30,,,1034.7,PROCESS_FAIL,"6/1141 [00:52<01:24,  8.39it/s]
+ 38%|███▊      | 439/1141 [00:52<22:42,  1.94s/it]
+ 39%|███▊      | 441/1141 [00:54<20:49,  1.78s/it]
+ 39%|███▉      | 444/1141 [00:54<14:47,  1.27s/it]
+ 39%|███▉      | 448/1141 [00:55<09:31,  1.21it/s]
+ 40%|███▉      | 455/1141 [00:55<05:03,  2.26it/s]
+ 40%|████      | 459/1141 [00:55<03:47,  2.99it/s]
+ 40%|████      | 462/1141 [00:55<03:01,  3.73it/s]
+ 41%|████      | 465/1141 [00:56<02:50,  3.98it/s]
+ 41%|████      | 467/1141 [00:57<04:10,  2.69it/s]
+ 41%|████"
+r3_production_v1_20260528_030441,56,unimol2_84m,sider,DoRA,1,PASS,AUROC,0.6404931341,-0.0018693475,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,3379.8,,
+r3_production_v1_20260528_030441,57,unimol2_84m,sider,DoRA,2,INCOMPLETE,,,,,,8,0.0003,0.0,50,30,,,1326.1,PROCESS_FAIL,", 12.85it/s]
+ 91%|█████████ | 1036/1141 [06:23<00:07, 14.32it/s]
+ 91%|█████████ | 1039/1141 [06:24<00:06, 16.52it/s]
+ 91%|█████████▏| 1042/1141 [06:24<00:05, 17.78it/s]
+ 92%|█████████▏| 1045/1141 [06:24<00:04, 19.90it/s]
+ 92%|█████████▏| 1048/1141 [06:24<00:04, 19.06it/s]
+ 92%|█████████▏| 1051/1141 [06:24<00:04, 19.56it/s]
+ 93%|█████████▎| 1056/1141 [06:24<00:03, 25.25it/s]
+ 93%|█████████▎| 1060/1141 [06:24<00:02, 28.42it/s]
+ 93%|█████████▎| 1064/1141 [06:33<00:56,  1.36it/s]
+ 94%|█████████▎| 10"
+r3_production_v1_20260528_030441,58,unimol2_84m,bace,DoRA,0,PASS,AUROC,0.8476466456,-0.0043905866,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,962.6,,
+r3_production_v1_20260528_030441,59,unimol2_84m,bace,DoRA,1,PASS,AUROC,0.8841698842,0.0078975079,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,964.2,,
+r3_production_v1_20260528_030441,60,unimol2_84m,bace,DoRA,2,PASS,AUROC,0.8221305721,-0.0257985258,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,963.3,,
+r3_production_v1_20260528_030441,61,unimol2_84m,bbbp,DoRA,0,PASS,AUROC,0.8404181667,0.0414705068,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,1143.0,,
+r3_production_v1_20260528_030441,62,unimol2_84m,bbbp,DoRA,1,PASS,AUROC,0.9036337209,-0.0280523256,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,1146.5,,
+r3_production_v1_20260528_030441,63,unimol2_84m,bbbp,DoRA,2,PASS,AUROC,0.8943671577,0.0054555373,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,1216.9,,
+r3_production_v1_20260528_030441,64,unimol2_84m,freesolv,DoRA,0,PASS,RMSE,2.72562933,0.992854953,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,444.3,,
+r3_production_v1_20260528_030441,65,unimol2_84m,freesolv,DoRA,1,PASS,RMSE,2.363576412,0.556294441,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,492.3,,
+r3_production_v1_20260528_030441,66,unimol2_84m,freesolv,DoRA,2,PASS,RMSE,2.230938911,-0.004706383,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,364.3,,
+r3_production_v1_20260528_030441,67,unimol2_84m,esol,DoRA,0,PASS,RMSE,0.8954282403,0.0679441094,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,609.1,,
+r3_production_v1_20260528_030441,68,unimol2_84m,esol,DoRA,1,PASS,RMSE,0.9960712194,0.046721816,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,617.8,,
+r3_production_v1_20260528_030441,69,unimol2_84m,esol,DoRA,2,PASS,RMSE,0.935097754,-0.0608947277,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,730.7,,
+r3_production_v1_20260528_030441,70,unimol2_84m,lipo,DoRA,0,PASS,RMSE,0.6918848157,-0.0484105349,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,2011.6,,
+r3_production_v1_20260528_030441,71,unimol2_84m,lipo,DoRA,1,PASS,RMSE,0.7258123755,0.1184856891,50,,8,0.0003,0.0,50,30,results/spec_a_r3_production/r3_production_v1_20260528_030441_unimol2_train_curves.csv,,2108.0,,

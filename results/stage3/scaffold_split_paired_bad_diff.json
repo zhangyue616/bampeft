@@ -1,0 +1,660 @@
+{
+  "rows": [
+    {
+      "backbone": "cmpnn",
+      "dataset": "freesolv",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 2.096095,
+      "lora_metric": 2.16195,
+      "metric_type": "rmse",
+      "paired_bad_diff": -0.065855,
+      "seed": 0,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "cmpnn",
+      "dataset": "freesolv",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 2.709365,
+      "lora_metric": 2.673929,
+      "metric_type": "rmse",
+      "paired_bad_diff": 0.035436000000000245,
+      "seed": 1,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "cmpnn",
+      "dataset": "freesolv",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 1.570725,
+      "lora_metric": 1.490457,
+      "metric_type": "rmse",
+      "paired_bad_diff": 0.080268,
+      "seed": 2,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "cmpnn",
+      "dataset": "esol",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.75785,
+      "lora_metric": 0.741628,
+      "metric_type": "rmse",
+      "paired_bad_diff": 0.01622200000000007,
+      "seed": 0,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "cmpnn",
+      "dataset": "esol",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.770888,
+      "lora_metric": 0.759042,
+      "metric_type": "rmse",
+      "paired_bad_diff": 0.011846000000000023,
+      "seed": 1,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "cmpnn",
+      "dataset": "esol",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.990898,
+      "lora_metric": 1.002986,
+      "metric_type": "rmse",
+      "paired_bad_diff": -0.012087999999999988,
+      "seed": 2,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "cmpnn",
+      "dataset": "lipo",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.627623,
+      "lora_metric": 0.654229,
+      "metric_type": "rmse",
+      "paired_bad_diff": -0.026605999999999908,
+      "seed": 0,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "cmpnn",
+      "dataset": "lipo",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.613169,
+      "lora_metric": 0.641112,
+      "metric_type": "rmse",
+      "paired_bad_diff": -0.02794300000000005,
+      "seed": 1,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "cmpnn",
+      "dataset": "lipo",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.665076,
+      "lora_metric": 0.653554,
+      "metric_type": "rmse",
+      "paired_bad_diff": 0.011522000000000032,
+      "seed": 2,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "cmpnn",
+      "dataset": "bace",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.853556,
+      "lora_metric": 0.852502,
+      "metric_type": "auc",
+      "paired_bad_diff": -0.0010539999999999994,
+      "seed": 0,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "cmpnn",
+      "dataset": "bace",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.903136,
+      "lora_metric": 0.913937,
+      "metric_type": "auc",
+      "paired_bad_diff": 0.01080099999999995,
+      "seed": 1,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "cmpnn",
+      "dataset": "bace",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.847059,
+      "lora_metric": 0.831373,
+      "metric_type": "auc",
+      "paired_bad_diff": -0.015685999999999978,
+      "seed": 2,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "cmpnn",
+      "dataset": "bbbp",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.956385,
+      "lora_metric": 0.958709,
+      "metric_type": "auc",
+      "paired_bad_diff": 0.0023239999999999927,
+      "seed": 0,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "cmpnn",
+      "dataset": "bbbp",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.916727,
+      "lora_metric": 0.913697,
+      "metric_type": "auc",
+      "paired_bad_diff": -0.003029999999999977,
+      "seed": 1,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "cmpnn",
+      "dataset": "bbbp",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.93989,
+      "lora_metric": 0.943174,
+      "metric_type": "auc",
+      "paired_bad_diff": 0.0032839999999999536,
+      "seed": 2,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "cmpnn",
+      "dataset": "sider",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.608458,
+      "lora_metric": 0.562181,
+      "metric_type": "auc",
+      "paired_bad_diff": -0.04627700000000001,
+      "seed": 0,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "cmpnn",
+      "dataset": "sider",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.613473,
+      "lora_metric": 0.619716,
+      "metric_type": "auc",
+      "paired_bad_diff": 0.0062429999999999986,
+      "seed": 1,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "cmpnn",
+      "dataset": "sider",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.587158,
+      "lora_metric": 0.594403,
+      "metric_type": "auc",
+      "paired_bad_diff": 0.007245000000000057,
+      "seed": 2,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "chemberta2",
+      "dataset": "freesolv",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 2.179350030404293,
+      "lora_metric": 2.1771432116972695,
+      "metric_type": "rmse",
+      "paired_bad_diff": 0.002206818707023661,
+      "seed": 0,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "chemberta2",
+      "dataset": "freesolv",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 2.546954007473736,
+      "lora_metric": 2.5534737879847706,
+      "metric_type": "rmse",
+      "paired_bad_diff": -0.006519780511034856,
+      "seed": 1,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "chemberta2",
+      "dataset": "freesolv",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 2.2555224146337007,
+      "lora_metric": 2.257611117242196,
+      "metric_type": "rmse",
+      "paired_bad_diff": -0.002088702608495474,
+      "seed": 2,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "chemberta2",
+      "dataset": "esol",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.7737233568081575,
+      "lora_metric": 0.7722132076984445,
+      "metric_type": "rmse",
+      "paired_bad_diff": 0.0015101491097130326,
+      "seed": 0,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "chemberta2",
+      "dataset": "esol",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.9920034162708646,
+      "lora_metric": 0.9119242576279227,
+      "metric_type": "rmse",
+      "paired_bad_diff": 0.0800791586429419,
+      "seed": 1,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "chemberta2",
+      "dataset": "esol",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 1.0677147965894633,
+      "lora_metric": 1.06847809126746,
+      "metric_type": "rmse",
+      "paired_bad_diff": -0.0007632946779967398,
+      "seed": 2,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "chemberta2",
+      "dataset": "lipo",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.7091729199783385,
+      "lora_metric": 0.7156973573177254,
+      "metric_type": "rmse",
+      "paired_bad_diff": -0.0065244373393869015,
+      "seed": 0,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "chemberta2",
+      "dataset": "lipo",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.7117309753506946,
+      "lora_metric": 0.7192317757762267,
+      "metric_type": "rmse",
+      "paired_bad_diff": -0.007500800425532028,
+      "seed": 1,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "chemberta2",
+      "dataset": "lipo",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.7943009709544985,
+      "lora_metric": 0.7994629592163899,
+      "metric_type": "rmse",
+      "paired_bad_diff": -0.005161988261891404,
+      "seed": 2,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "chemberta2",
+      "dataset": "bace",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.8254609306409131,
+      "lora_metric": 0.8237050043898156,
+      "metric_type": "auc",
+      "paired_bad_diff": -0.0017559262510974394,
+      "seed": 0,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "chemberta2",
+      "dataset": "bace",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.8633275261324042,
+      "lora_metric": 0.8631533101045297,
+      "metric_type": "auc",
+      "paired_bad_diff": -0.0001742160278744853,
+      "seed": 1,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "chemberta2",
+      "dataset": "bace",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.7640196078431373,
+      "lora_metric": 0.7626470588235295,
+      "metric_type": "auc",
+      "paired_bad_diff": -0.001372549019607816,
+      "seed": 2,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "chemberta2",
+      "dataset": "bbbp",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.9606234618539786,
+      "lora_metric": 0.9604867377631938,
+      "metric_type": "auc",
+      "paired_bad_diff": -0.00013672409078480108,
+      "seed": 0,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "chemberta2",
+      "dataset": "bbbp",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.9586666666666667,
+      "lora_metric": 0.9585454545454546,
+      "metric_type": "auc",
+      "paired_bad_diff": -0.00012121212121207758,
+      "seed": 1,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "chemberta2",
+      "dataset": "bbbp",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.981468449448745,
+      "lora_metric": 0.9812338728594886,
+      "metric_type": "auc",
+      "paired_bad_diff": -0.00023457658925640779,
+      "seed": 2,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "chemberta2",
+      "dataset": "sider",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.4953334821618785,
+      "lora_metric": 0.4950535062294517,
+      "metric_type": "auc",
+      "paired_bad_diff": -0.0002799759324267903,
+      "seed": 0,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "chemberta2",
+      "dataset": "sider",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.5746667869650818,
+      "lora_metric": 0.6018222815705173,
+      "metric_type": "auc",
+      "paired_bad_diff": 0.027155494605435537,
+      "seed": 1,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "chemberta2",
+      "dataset": "sider",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.5574993870667913,
+      "lora_metric": 0.5573064263023907,
+      "metric_type": "auc",
+      "paired_bad_diff": -0.00019296076440056265,
+      "seed": 2,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "molformer_c3",
+      "dataset": "freesolv",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 1.9376164678207706,
+      "lora_metric": 1.6782125695252592,
+      "metric_type": "rmse",
+      "paired_bad_diff": 0.25940389829551136,
+      "seed": 0,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "molformer_c3",
+      "dataset": "freesolv",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 3.185688326728035,
+      "lora_metric": 3.048959498290654,
+      "metric_type": "rmse",
+      "paired_bad_diff": 0.1367288284373811,
+      "seed": 1,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "molformer_c3",
+      "dataset": "freesolv",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 1.5082239567983509,
+      "lora_metric": 1.7749547979482525,
+      "metric_type": "rmse",
+      "paired_bad_diff": -0.26673084114990164,
+      "seed": 2,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "molformer_c3",
+      "dataset": "esol",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.8032846537029855,
+      "lora_metric": 0.8471421823232395,
+      "metric_type": "rmse",
+      "paired_bad_diff": -0.04385752862025394,
+      "seed": 0,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "molformer_c3",
+      "dataset": "esol",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 1.0358808752265953,
+      "lora_metric": 0.954651438879548,
+      "metric_type": "rmse",
+      "paired_bad_diff": 0.08122943634704738,
+      "seed": 1,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "molformer_c3",
+      "dataset": "esol",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.9269931120673182,
+      "lora_metric": 0.9357313320714231,
+      "metric_type": "rmse",
+      "paired_bad_diff": -0.008738220004104957,
+      "seed": 2,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "molformer_c3",
+      "dataset": "lipo",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.6747392106481535,
+      "lora_metric": 0.7138818825436888,
+      "metric_type": "rmse",
+      "paired_bad_diff": -0.03914267189553533,
+      "seed": 0,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "molformer_c3",
+      "dataset": "lipo",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.7523448369700659,
+      "lora_metric": 0.7547963081727462,
+      "metric_type": "rmse",
+      "paired_bad_diff": -0.0024514712026803,
+      "seed": 1,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "molformer_c3",
+      "dataset": "lipo",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.7306481615348694,
+      "lora_metric": 0.7095989579567252,
+      "metric_type": "rmse",
+      "paired_bad_diff": 0.021049203578144215,
+      "seed": 2,
+      "task_type": "regression"
+    },
+    {
+      "backbone": "molformer_c3",
+      "dataset": "bace",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.7759438103599648,
+      "lora_metric": 0.7952589991220369,
+      "metric_type": "auc",
+      "paired_bad_diff": 0.019315188762072055,
+      "seed": 0,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "molformer_c3",
+      "dataset": "bace",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.8879790940766551,
+      "lora_metric": 0.8949477351916376,
+      "metric_type": "auc",
+      "paired_bad_diff": 0.006968641114982521,
+      "seed": 1,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "molformer_c3",
+      "dataset": "bace",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.8037254901960784,
+      "lora_metric": 0.8011764705882353,
+      "metric_type": "auc",
+      "paired_bad_diff": -0.0025490196078431504,
+      "seed": 2,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "molformer_c3",
+      "dataset": "bbbp",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.9641782882143833,
+      "lora_metric": 0.9588460486737763,
+      "metric_type": "auc",
+      "paired_bad_diff": -0.00533223954060702,
+      "seed": 0,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "molformer_c3",
+      "dataset": "bbbp",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.9461818181818182,
+      "lora_metric": 0.945939393939394,
+      "metric_type": "auc",
+      "paired_bad_diff": -0.0002424242424242662,
+      "seed": 1,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "molformer_c3",
+      "dataset": "bbbp",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.9836969270466808,
+      "lora_metric": 0.983814215341309,
+      "metric_type": "auc",
+      "paired_bad_diff": 0.00011728829462820389,
+      "seed": 2,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "molformer_c3",
+      "dataset": "sider",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.5739636256738426,
+      "lora_metric": 0.5764097098433578,
+      "metric_type": "auc",
+      "paired_bad_diff": 0.0024460841695151947,
+      "seed": 0,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "molformer_c3",
+      "dataset": "sider",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.6017814184908042,
+      "lora_metric": 0.607502351005624,
+      "metric_type": "auc",
+      "paired_bad_diff": 0.005720932514819754,
+      "seed": 1,
+      "task_type": "classification"
+    },
+    {
+      "backbone": "molformer_c3",
+      "dataset": "sider",
+      "direction": "regression: dora_rmse - lora_rmse; classification: lora_auc - dora_auc; negative = DoRA better",
+      "dora_metric": 0.550279131560163,
+      "lora_metric": 0.5494050441400998,
+      "metric_type": "auc",
+      "paired_bad_diff": -0.0008740874200631188,
+      "seed": 2,
+      "task_type": "classification"
+    }
+  ],
+  "summary": {
+    "by_backbone": {
+      "chemberta2": {
+        "mean": 0.004340248691339798,
+        "n": 18,
+        "sem": 0.004781600860632739,
+        "std": 0.02028661436088505
+      },
+      "cmpnn": {
+        "mean": -0.0007415555555555323,
+        "n": 18,
+        "sem": 0.007413754180827693,
+        "std": 0.03145389513188027
+      },
+      "molformer_c3": {
+        "mean": 0.009058944323927114,
+        "n": 18,
+        "sem": 0.023342347130363265,
+        "std": 0.09903319166814127
+      }
+    },
+    "by_dataset": {
+      "bace": {
+        "mean": 0.0016103465522924064,
+        "n": 9,
+        "sem": 0.0032779093623782735,
+        "std": 0.00983372808713482
+      },
+      "bbbp": {
+        "mean": -0.0003746542544062666,
+        "n": 9,
+        "sem": 0.0008555128117282012,
+        "std": 0.0025665384351846033
+      },
+      "esol": {
+        "mean": 0.013937744533038532,
+        "n": 9,
+        "sem": 0.013851819822691284,
+        "std": 0.04155545946807385
+      },
+      "freesolv": {
+        "mean": 0.01920546901894271,
+        "n": 9,
+        "sem": 0.0480014654645314,
+        "std": 0.1440043963935942
+      },
+      "lipo": {
+        "mean": -0.009195462838542409,
+        "n": 9,
+        "sem": 0.0064195253324366265,
+        "std": 0.01925857599730988
+      },
+      "sider": {
+        "mean": 0.00013183190809778415,
+        "n": 9,
+        "sem": 0.006465595185285031,
+        "std": 0.01939678555585509
+      }
+    },
+    "n_unique_pairs": 54,
+    "note": "108 scaffold production runs imply 54 unique LoRA-vs-DoRA pairs for 3 backbones x 6 datasets x 3 seeds."
+  }
+}
