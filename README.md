@@ -1,6 +1,12 @@
 # BAM-PEFT
 
-BAM-PEFT is a benchmark and audit package for parameter-efficient fine-tuning of molecular foundation and graph neural network backbones. The released code supports the controlled LoRA/DoRA/full fine-tuning comparisons, scaffold split reuse, bootstrap confidence intervals, and F1/F2/F3 spectral audit source-data reproduction used in the associated manuscript.
+BAM-PEFT is a benchmark and audit package for parameter-efficient fine-tuning of molecular foundation and graph neural network backbones. The released code supports the controlled LoRA/DoRA/full fine-tuning comparisons, scaffold split reuse, bootstrap confidence intervals, and source-data reproduction for the activation, weight, and step-0 gradient spectral audit used in the associated manuscript.
+
+## Workflow overview
+
+![BAM-PEFT workflow schematic for controlled fine-tuning benchmarks and a descriptive spectral audit](docs/figure_1_workflow_schematic.png)
+
+Figure 1 is a hand-drawn documentation asset that provides a workflow overview; it is not a script-generated reproducibility artifact.
 
 ## Attribution
 
@@ -10,6 +16,7 @@ This project is based on a fork of KANO (HICAI-ZJU/KANO; Fang et al., Nature Mac
 
 - `src/`: cleaned chemprop/KANO-derived training code and BAM-PEFT PEFT additions.
 - `scripts/`: cleaned experiment, split, bootstrap, and spectral-audit scripts.
+- `docs/`: documentation assets, currently the hand-drawn Figure 1 workflow overview.
 - `splits/`: 36 scaffold split JSON files for six datasets and seeds 0, 1, 2, 10, 100, and 1000.
 - `data_source/README.md`: data acquisition, required schema, and placement instructions.
 - `results/`: minimal locked CSV/JSON source results for manuscript figures and tables.
@@ -52,9 +59,27 @@ This package does not redistribute the six processed CSV files. Download the KAN
 5. Use `scripts/n4_full_ft/` for Full FT baselines.
 6. Use `scripts/n5_rank_sensitivity/` for rank sensitivity.
 7. Use `scripts/bootstrap_ci/` to recompute paired bootstrap summaries from locked paired-difference JSON files.
-8. Use `scripts/r1_signature/` for F1/F2/F3 spectral audit extraction and correlation summaries.
+8. Use `scripts/r1_signature/` for extraction of activation, weight, and step-0 gradient spectra and for correlation summaries.
 
-The `results/` directory contains the locked source tables used to render manuscript figures and tables. Figure-rendering scripts are intentionally not included because they are coupled to the manuscript build tree.
+The `results/` directory contains the locked source tables used to render manuscript figures and tables. This repository includes only the hand-drawn Figure 1 workflow overview under `docs/`; it does not include Figures 2–5, Supporting Information figures, or figure-rendering scripts. The rendering scripts are intentionally excluded because they are coupled to the manuscript build tree.
+
+## Manuscript ↔ code terminology
+
+The manuscript uses descriptive terms, whereas the code, data columns, file paths, and provenance records retain the original identifiers shown below. These identifiers are preserved to maintain traceability to archived run records.
+
+| Manuscript terminology | Code, schema, and archive identifiers |
+| --- | --- |
+| activation spectra | `F1` / `run_f1` / `bam_peft_r1_f1_activation_features*` |
+| weight spectra | `F2` / `run_f2` / `bam_peft_r1_f2_weight_features*` |
+| step-0 gradient spectra (or surface) | `F3` / `run_f3` / `extract_step0_gradient` / `bam_peft_r1_f3_gradient_features*` |
+| feature-family labels | `feature_family="F1"` / `feature_family="F3"` |
+| held-out PEFT production stage and outcomes | `spec_a_r3_production` / `r3_production_v1_*` |
+| k = 4 gradient–weight subspace alignment fraction | `alignment_A4` / `alignment_A4_mean` |
+| k = 16 gradient–weight subspace alignment fraction | `alignment_A16` / `alignment_A16_mean` |
+| standardized PEFT amenability gap | `z_gap`; archived prediction: `predicted_z_gap` |
+| mean top-4/8/16 step-0 gradient spectral energy | `grad_top4_energy_mean` / `grad_top8_energy_mean` / `grad_top16_energy_mean` |
+| mean normalized step-0 gradient effective rank | `grad_erank_norm_mean` |
+| mean normalized step-0 gradient spectral entropy | `grad_spectral_entropy_norm_mean` |
 
 ## Citation
 
